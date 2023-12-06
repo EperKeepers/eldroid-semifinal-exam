@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Semifinal Exam</string>
+    <string name="unique_id">Unique ID</string>
+    <string name="delete">Delete</string>
+    <string name="xdelete">Delete</string>
+    <string name="name">Name</string>
+    <string name="create_tweet">Create Tweet</string>
+    <string name="description">Description</string>
+    <string name="create">Create</string>
+    <string name="unique_id_update">Unique ID</string>
+    <string name="update">Update</string>
+    <string name="name_update">Name</string>
+    <string name="description_update">Description</string>
+    <string name="update_button">Update</string>
+    <string name="create_crtea">Create</string>
+    <string name="creates">create</string>
+    <string name="deletes">delete</string>
+    <string name="s">create</string>
+    <string name="names">Name</string>
+    <string name="descriptions">description</string>
+    <string name="description_create">Description</string>
+    <string name="createss">create</string>
+    <string name="post">Post</string>
+    <string name="sender">Sender</string>
+    <string name="content">Content</string>
+</resources>

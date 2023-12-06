@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image6"
+    tools:context=".CreateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="35dp">
+
+        <ImageButton
+            android:id="@+id/btn_update_back"
+            android:layout_width="100dp"
+            android:layout_height="72dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingStart="-80dp"
+            android:src="@drawable/baseline_keyboard_arrow_left_24"
+            tools:ignore="ContentDescription,ImageContrastCheck,RtlSymmetry,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:letterSpacing="0.4"
+            android:text="@string/update"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_update_unique_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/edittext"
+            android:hint="@string/unique_id_update"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            tools:ignore="Autofill,RtlSymmetry,TextFields,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/editText_update_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:hint="@string/name_update"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            tools:ignore="Autofill,RtlSymmetry,TextFields,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/editText_update_description"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext"
+            android:hint="@string/description_update"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            tools:ignore="Autofill,RtlSymmetry,TextFields,VisualLintTextFieldSize" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_background"
+            android:letterSpacing="0.3"
+            android:text="@string/update_button"
+            app:backgroundTint="@null"
+            tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck,VisualLintButtonSize" />
+
+    </LinearLayout>
+
+</RelativeLayout>
